@@ -45,7 +45,7 @@ except:
     time.sleep(0.5)
     clear()
     try:
-        system("pip instasll discord")
+        system("pip install discord")
         clear()
         system("pip install colorama")
         clear()
