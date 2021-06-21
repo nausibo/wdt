@@ -1,0 +1,2 @@
+# wdt
+Discord Webhook Tool
