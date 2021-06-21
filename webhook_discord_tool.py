@@ -55,10 +55,12 @@ except:
         time.sleep(1)
         clear()
         print("Tout les modules sont correctement installés.")
+        time.sleep(1)
     except:
         print("Erreur lors de l'installation des modules...")
         leave = input("Veuillez vérifier si PIP est correctement installé. (ENTER pour quitter)")
         quit()
+    quit()
 
 espace = ' ' * 40
 espace_menu = " " * 5
