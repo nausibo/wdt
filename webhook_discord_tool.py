@@ -40,12 +40,9 @@ def logo():
 def fermer():
     clear()
     logo()
-    print()
-    print()
-    print(couleur.OKGREEN + f"{espace_menu * 5} Instruction terminée fermeture de l'application dans 3 secondes...")
+    print(couleur.OKGREEN + f"\n\n{espace_menu * 5} Instruction terminée fermeture de l'application dans 3 secondes...")
     time.sleep(3)
-    print()
-    print(couleur.FAIL + f"{espace_menu * 10}Fermeture...")
+    print(couleur.FAIL + f"\n{espace_menu * 10}Fermeture...")
     time.sleep(1.5)
     sys.exit()
 
