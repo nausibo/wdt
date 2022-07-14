@@ -34,7 +34,7 @@ def logo():
     {espace}╚███╔███╔╝██████╔╝   ██║   {espace}
     {espace} ╚══╝╚══╝ ╚═════╝    ╚═╝   v""" + str(version) + espace + couleur.WHITE + f"""{espace}
                                                Webhook Discord Tool
-                                     | github.com/nowed02 | discord.io/dewon |{espace}""")
+                                     | github.com/nausi | discord.io/***** |{espace}""")
 
 
 def fermer():
